@@ -12,7 +12,7 @@ public class AgenteMovel  {
         this.y+= yMov;
     }
     public void ler(){
-        
+
     }
 
 }
