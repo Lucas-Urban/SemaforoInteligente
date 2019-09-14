@@ -35,7 +35,7 @@ public class Ambiente {
             this.agentes.add(semaforo);
         }
 
-        //
+        //Adici
         for (Agente semaforo1: this.agentes) {
             this.ambiente[semaforo1.getX()][semaforo1.getY()] = semaforo1.getDescricao();
         }
