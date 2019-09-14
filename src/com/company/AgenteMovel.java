@@ -1,3 +1,5 @@
+package com.company;
+
 public class AgenteMovel extends Agente {
 
     public AgenteMovel(int x, int y, String descricao) {
