@@ -1,2 +1,3 @@
-public class Semaforo {
+public class Semaforo extends Agente {
+
 }

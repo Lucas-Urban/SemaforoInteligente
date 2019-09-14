@@ -1,18 +1,11 @@
-public class AgenteMovel  {
-    private int x;
-    private int y;
+public class AgenteMovel extends Agente {
 
-    public AgenteMovel(int x, int y) {
-        this.x = x;
-        this.y = y;
+    public AgenteMovel(int x, int y, String descricao) {
+        super(x, y, descricao);
     }
 
-    public void andar(int xMov, int yMov){
-        this.x+= xMov;
-        this.y+= yMov;
+    public void movimentar(int xMov, int yMov){
+        this.setX(this.getX()+xMov);
+        this.setY(this.getY()+yMov);
     }
-    public void ler(){
-
-    }
-
 }
